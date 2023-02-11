@@ -102,9 +102,11 @@ nav {
         margin-top: 20px !important;
         font-size: 40px !important;
     }
-}
 
-/* .xmar{} */
+    .hero .left-side h1 {
+        max-width: 80%;
+    }
+}
 
 .logo {
     font-size: 22px;
@@ -154,14 +156,12 @@ img {
 }
 
 .hero h1 {
-    font-size: 70px;
+    font-size: 65px;
+    padding-right: 20px;
 }
 
 .hero span {
     color: #ff8a56;
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 35px;
 }
 
 .hero .left-side .buttons {
@@ -461,7 +461,16 @@ img {
 
 /* experience */
 
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero .left-side h1{
+        max-width: 60%;
+    }
+}
+
 @media (max-width: 768px) {
+    .hero .left-side h1{
+        max-width: 100%;
+    }
     .service-item {
         align-items: center !important;
         text-align: center;
@@ -513,18 +522,15 @@ img {
 
 @media (max-width: 575px) {
     .hero .left-side {
-        padding: 15px 0;
+        padding: 10px 0px;
         gap: 10px;
         text-align: center;
         align-items: center;
     }
 
-    .hero .left-side span {
-        font-size: 40px;
-    }
-
     .hero .left-side h1 {
         font-size: 40px;
+        font-weight: 700;
     }
 
     .hero .left-side p {
