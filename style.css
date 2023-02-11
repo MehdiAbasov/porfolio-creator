@@ -289,45 +289,6 @@ img {
 }
 
 /* owl-carousel */
-@media (max-width: 768px) {
-    .owl-carousel {
-        position: relative !important;
-    }
-    .blog {
-        margin-top: -150px !important;
-    }
-    .project-img img {
-        height: 340px !important;
-    }
-    .projects-container {
-        margin: -5px !important;
-    }
-    .owl-nav {
-        right: 0px !important;
-    }
-
-    .service-head {
-        max-width: 100%;
-    }
-    .service-head h1 {
-        font-size: 34px !important;
-    }
-    .project-head {
-        flex-direction: column;
-        text-align: center;
-        gap: 30px;
-    }
-
-    .project-head a {
-        font-size: 15px !important;
-        padding: 10px 20px !important;
-    }
-
-    .project-head h1 {
-        line-height: 24px !important;
-        font-size: 35px !important;
-    }
-}
 
 .owl-carousel {
     position: absolute;
@@ -534,5 +495,79 @@ img {
     }
     .support-us-img img {
         width: 60% !important;
+    }
+    .experience .bottom {
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .experience-work-info {
+        flex-direction: column;
+    }
+
+    .experience-img {
+        margin-top: 20px;
+        justify-content: center;
+        position: relative;
+    }
+
+    .experience-img img {
+        position: absolute;
+        bottom: -30px;
+        right: 20px;
+    }
+
+    .experience-img img {
+        width: 45px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-item{
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .service-item li{
+        list-style: none !important;
+        margin-left: -40px;
+    }
+
+    .owl-carousel {
+        position: relative !important;
+    }
+    .blog {
+        margin-top: -150px !important;
+    }
+    .project-img img {
+        height: 340px !important;
+    }
+    .projects-container {
+        margin: -5px !important;
+    }
+    .owl-nav {
+        right: 0px !important;
+    }
+
+    .service-head {
+        max-width: 100%;
+    }
+    .service-head h1 {
+        font-size: 34px !important;
+    }
+    .project-head {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .project-head a {
+        font-size: 15px !important;
+        padding: 10px 20px !important;
+    }
+
+    .project-head h1 {
+        line-height: 24px !important;
+        font-size: 35px !important;
     }
 }
