@@ -196,17 +196,13 @@ img {
 }
 
 .support-us-img {
-    padding: 0 100px;
-}
-
-.support-us-img .col-md-3 {
-    padding: 30px;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
 }
 
-.support-us-img .col-md-3 img {
-    width: 80%;
+.support-us-img img {
+    width: 300px;
 }
 
 /* support us */
@@ -465,70 +461,13 @@ img {
 
 /* experience */
 
-@media (max-width: 575px) {
-    .hero .left-side {
-        padding: 15px 0;
-        gap: 10px;
-        text-align: center;
-        align-items: center;
-    }
-
-    .hero .left-side span {
-        font-size: 40px;
-    }
-
-    .hero .left-side h1 {
-        font-size: 40px;
-    }
-
-    .hero .left-side p {
-        font-size: 17px;
-    }
-    .hero .buttons a {
-        padding: 10px 20px;
-        font-size: 15px;
-    }
-
-    .support-us-img {
-        width: 100%;
-        padding: 0 30px;
-    }
-    .support-us-img img {
-        width: 60% !important;
-    }
-    .experience .bottom {
-        list-style: none;
-        margin-top: 10px;
-    }
-
-    .experience-work-info {
-        flex-direction: column;
-    }
-
-    .experience-img {
-        margin-top: 20px;
-        justify-content: center;
-        position: relative;
-    }
-
-    .experience-img img {
-        position: absolute;
-        bottom: -30px;
-        right: 20px;
-    }
-
-    .experience-img img {
-        width: 45px !important;
-    }
-}
-
 @media (max-width: 768px) {
-    .service-item{
+    .service-item {
         align-items: center !important;
         text-align: center;
     }
 
-    .service-item li{
+    .service-item li {
         list-style: none !important;
         margin-left: -40px;
     }
@@ -569,5 +508,59 @@ img {
     .project-head h1 {
         line-height: 24px !important;
         font-size: 35px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero .left-side {
+        padding: 15px 0;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero .left-side span {
+        font-size: 40px;
+    }
+
+    .hero .left-side h1 {
+        font-size: 40px;
+    }
+
+    .hero .left-side p {
+        font-size: 17px;
+    }
+    .hero .buttons a {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .experience .bottom {
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .experience-work-info {
+        flex-direction: column;
+    }
+
+    .experience-img {
+        margin-top: 20px;
+        justify-content: center;
+        position: relative;
+    }
+
+    .experience-img img {
+        position: absolute;
+        bottom: -30px;
+        right: 20px;
+    }
+
+    .experience-img img {
+        width: 45px !important;
+    }
+
+    .service-head h1 {
+        font-size: 28px !important;
     }
 }

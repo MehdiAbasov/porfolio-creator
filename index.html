@@ -83,19 +83,8 @@
         <div class="container">
             <div class="support-us">
                 <span>Trusted by</span>
-                <div class="row support-us-img">
-                    <div class="col-md-3">
-                        <img src="./images/support1.png" alt="support-us">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="./images/support2.png" alt="support-us">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="./images/support1.png" alt="support-us">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="./images/support2.png" alt="support-us">
-                    </div>
+                <div class="support-us-img">
+                    <img id="slideImg" src="./images/support1.png" alt="support-us">
                 </div>
             </div>
         </div>
@@ -362,13 +351,13 @@
                 autoWidth: true,
                 autoplay: true,
                 autoplayTimeout: 2000,
-                dots:false,
+                dots: false,
                 responsive: {
                     0: {
                         items: 1,
                         autoWidth: false
                     },
-                    768:{
+                    768: {
                         autoWidth: true
                     }
                 }
