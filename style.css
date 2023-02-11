@@ -7,11 +7,11 @@ body {
     overflow-x: hidden;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 4px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #000;
 }
 
@@ -34,7 +34,7 @@ nav {
     height: 70px;
 }
 
-.nav-overlay{
+.nav-overlay {
     height: 100vh;
     position: fixed;
     left: 0;
@@ -42,22 +42,22 @@ nav {
     width: 0%;
     overflow: hidden;
     display: flex;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-.overlay-container{
+.overlay-container {
     position: relative;
     background-color: #000;
     height: 100vh;
     width: 70%;
-    opacity: .8;
+    opacity: 0.8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.nav-link{
+.nav-link {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -65,11 +65,11 @@ nav {
     font-size: 20px;
 }
 
-.nav-link a{
+.nav-link a {
     color: #fff;
 }
 
-.burger-icon{
+.burger-icon {
     display: none;
     font-size: 20px;
     padding: 7px;
@@ -77,8 +77,8 @@ nav {
     cursor: pointer;
 }
 
-.xmark{
-    position: absolute; 
+.xmark {
+    position: absolute;
     top: 20px;
     right: 20px;
     color: #fff;
@@ -88,12 +88,18 @@ nav {
     border: 1px solid #fff;
 }
 
-@media (max-width:992px){
-    .nav-links{
+@media (max-width: 992px) {
+    .nav-links {
         display: none !important;
     }
-    .burger-icon{
+    .burger-icon {
         display: flex;
+    }
+    .service-head {
+        max-width: 100% !important;
+    }
+    .service-head h1{
+        font-size: 40px !important;
     }
 }
 
@@ -282,21 +288,29 @@ img {
 }
 
 /* owl-carousel */
-@media (max-width: 768px){
-    .owl-carousel{
+@media (max-width: 768px) {
+    .owl-carousel {
         position: relative !important;
     }
-    .blog{
+    .blog {
         margin-top: -150px !important;
     }
-    .project-img img{
+    .project-img img {
         height: 340px !important;
     }
-    .projects-container{
+    .projects-container {
         margin: -5px !important;
     }
-    .owl-nav{
+    .owl-nav {
         right: 0px !important;
+    }
+
+    .service-head{
+        max-width: 100%;
+    }
+    .service-head h1{
+        margin-top: 20px;
+        font-size: 35px !important;
     }
 }
 
@@ -474,3 +488,36 @@ img {
 }
 
 /* experience */
+
+@media (max-width: 575px) {
+    .hero .left-side {
+        padding: 15px 0;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero .left-side span {
+        font-size: 40px;
+    }
+
+    .hero .left-side h1 {
+        font-size: 40px;
+    }
+
+    .hero .left-side p {
+        font-size: 17px;
+    }
+    .hero .buttons a {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .support-us-img {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .support-us-img img {
+        width: 60% !important;
+    }
+}
